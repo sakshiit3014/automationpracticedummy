@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="generic.TestListners"></listener>
+</listeners>
+  <test name="Test">
+  <packages>
+  <package name=""></package>
+  </packages>
+    <classes>
+       <class name="scripts.TestValidLogin"/>
+        <class name="scripts.TestAddToCart"/>
+        <class name="scripts.TestMakePayment"/>
+    </classes>
+  </test> <!-- Test -->
+ <test name="Test1">
+  <packages>
+  <package name=""></package>
+  </packages>
+    <classes>
+   <!--  <class name="scripts.TestAddToCart"/> -->   
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
